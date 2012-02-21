@@ -1,0 +1,8 @@
+This is an implementation of the simple observer pattern (not a double observer).
+
+Subject		-	is an airplane with an aircraft ID.
+Observer	-	StationObserver is the observer and each station will act as a StationObserver
+
+Whenever a station is visited Observers will be notified.
+
+FlyAircraft is the main class which flies the aircraft.
